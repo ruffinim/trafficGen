@@ -1219,7 +1219,7 @@ end
     end
 
 
-%%% Minumum time slot is 5mins%%%
+%%% Minimum time slot is 5mins%%%
     if ParaVal(6) >= 5 && ParaVal(6) <= 60*3
         ParaVal6_t = ParaVal(6);
     elseif ParaVal(6) < 5

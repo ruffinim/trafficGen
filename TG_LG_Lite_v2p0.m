@@ -1137,7 +1137,7 @@ TraMatrixIX = zeros(a,a,289);
                     else
                         TraMatrixIX(i,j,:) = CurNodeIX_DS+CurNodeIX_US; %traffic goes preferentially to the local IX
                     end
-                else if IXNodeInd(j) == 0 %If i is an Internet exchange and j is not, then the downstream traffic of node j is (partially) calulated in the i->j traffic
+                else if IXNodeInd(j) == 0 %If i is an Internet exchange and j is not, then the downstream traffic of node j is (partially) calculated in the i->j traffic
                         if(SeparateDS_US)
                             if(CurrentDS)
                                 TraMatrixIX(i,j,:) = DestNodeIX_DS/IXNodeNum;
